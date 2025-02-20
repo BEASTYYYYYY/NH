@@ -29,7 +29,8 @@ export default function RootLayout({
             </TRPCReactProvider>
             <Toaster />
           </ThemeProvider> */}
-          <h1 > hiii</h1>
+          {children}
+          <h1 > hiii </h1>
         </body>
       </html>
     </ClerkProvider>

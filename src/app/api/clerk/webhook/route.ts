@@ -1,5 +1,4 @@
 import { db } from "@/server/db";
-import { log } from "console";
 
 export const POST = async (req: Request) => {
     const { data } = await req.json();    
